@@ -13,9 +13,11 @@ public class Peso implements Serializable {
 	
 	private Integer valor;
 	
+	private Boolean ativo;
+	
 	public Peso(){
 		
-	}
+	} 
 
 	public Long getId() {
 		return id;
